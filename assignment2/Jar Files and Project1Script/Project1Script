@@ -1,0 +1,64 @@
+# !/bin/bash
+
+# Username, Age, and Rating test cases
+# java -jar ./CSE565P1.jar prasidh 24 Returning Silver Spring Electronics 5
+# java -jar ./CSE565P1.jar pras 24 Returning Silver Spring Electronics 5
+# java -jar ./CSE565P1.jar prasidhaggarwal 24 Returning Silver Spring Electronics 5
+# java -jar ./CSE565P1.jar prasidh12 24 Returning Silver Spring Electronics 5
+# java -jar ./CSE565P1.jar pras-agg 24 Returning Silver Spring Electronics 5
+# java -jar ./CSE565P1.jar pras_agg 24 Returning Silver Spring Electronics 5
+# java -jar ./CSE565P1.jar prasidh 17 Returning Silver Spring Electronics 5
+# java -jar ./CSE565P1.jar prasidh 18.5 Returning Silver Spring Electronics 5
+# java -jar ./CSE565P1.jar prasidh 24 Returning Silver Spring Electronics 8.5
+# java -jar ./CSE565P1.jar prasidh 24 Returning Silver Spring Electronics 0
+# java -jar ./CSE565P1.jar prasidh 24 Returning Silver Spring Electronics -10
+# java -jar ./CSE565P1.jar prasidh 24 Returning Silver Spring Electronics 11
+
+#  New user test cases
+# java -jar ./CSE565P1.jar prasidh 24 New Bronze Spring Electronics 5
+# java -jar ./CSE565P1.jar prasidh 24 New Silver Spring Electronics 5
+# java -jar ./CSE565P1.jar prasidh 24 New Gold Spring Electronics 5
+# java -jar ./CSE565P1.jar prasidh 24 New Bronze Winter Electronics 5
+# java -jar ./CSE565P1.jar prasidh 24 New Silver Winter Electronics 5
+# java -jar ./CSE565P1.jar prasidh 24 New Gold Winter Electronics 5
+# java -jar ./CSE565P1.jar prasidh 24 New Bronze Summer Electronics 5
+# java -jar ./CSE565P1.jar prasidh 24 New Silver Summer Electronics 5
+# java -jar ./CSE565P1.jar prasidh 24 New Gold Summer Electronics 5
+# java -jar ./CSE565P1.jar prasidh 24 New Bronze Fall Electronics 5
+# java -jar ./CSE565P1.jar prasidh 24 New Silver Fall Electronics 5
+# java -jar ./CSE565P1.jar prasidh 24 New Gold Fall Electronics 5
+
+# Unknown category test cases
+# java -jar ./CSE565P1.jar prasidh 24 Returning Bronze Summer Unknown 5
+# java -jar ./CSE565P1.jar prasidh 24 Returning Bronze Winter Unknown 5
+# java -jar ./CSE565P1.jar prasidh 24 Returning Bronze Spring Unknown 5
+# java -jar ./CSE565P1.jar prasidh 24 Returning Bronze Fall Unknown 5
+java -jar ./CSE565P1.jar prasidh 24 Returning Silver Summer Unknown 5
+# java -jar ./CSE565P1.jar prasidh 24 Returning Silver Winter Unknown 5
+# java -jar ./CSE565P1.jar prasidh 24 Returning Silver Spring Unknown 5
+# java -jar ./CSE565P1.jar prasidh 24 Returning Silver Fall Unknown 5
+# java -jar ./CSE565P1.jar prasidh 24 Returning Gold Summer Unknown 5
+# java -jar ./CSE565P1.jar prasidh 24 Returning Gold Winter Unknown 5
+# java -jar ./CSE565P1.jar prasidh 24 Returning Gold Spring Unknown 5
+# java -jar ./CSE565P1.jar prasidh 24 Returning Gold Fall Unknown 5
+
+# Returning Summer Electronics test cases
+# java -jar ./CSE565P1.jar prasidh 24 Returning Bronze Summer Electronics 5
+# java -jar ./CSE565P1.jar prasidh 24 Returning Silver Summer Electronics 5
+# java -jar ./CSE565P1.jar prasidh 24 Returning Gold Summer Electronics 5
+
+# Returning Spring Electronics test cases
+java -jar ./CSE565P1.jar prasidh 24 Returning Bronze Spring Electronics 5
+# java -jar ./CSE565P1.jar prasidh 24 Returning Silver Spring Electronics 5
+# java -jar ./CSE565P1.jar prasidh 24 Returning Gold Spring Electronics 5
+
+# Returning Winter Electronics test cases
+# java -jar ./CSE565P1.jar prasidh 24 Returning Bronze Winter Electronics 5
+# java -jar ./CSE565P1.jar prasidh 24 Returning Silver Winter Electronics 5
+java -jar ./CSE565P1.jar prasidh 24 Returning Gold Winter Electronics 5
+
+# Returning Fall Electronics test cases
+# java -jar ./CSE565P1.jar prasidh 24 Returning Bronze Fall Electronics 5
+java -jar ./CSE565P1.jar prasidh 24 Returning Silver Fall Electronics 5
+java -jar ./CSE565P1.jar prasidh 24 Returning Gold Fall Electronics 5
+
